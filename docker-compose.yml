@@ -1,0 +1,7 @@
+version: '3'
+services:
+  my-docker-service:
+    image: my-docker-image:latest
+    ports:
+      - "8080:80"
+    command: [ "echo", "Hello, world!" ]
